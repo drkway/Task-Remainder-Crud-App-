@@ -2,10 +2,7 @@
 
 This is a Node.js + Express backend implementing a task management system with email OTP authentication, JWT access and refresh tokens, rate limiting, activity logging, and Swagger docs.
 
-Quick start
 
-1. Copy `.env.example` → `.env` and fill values (Postgres + SMTP).
-2. Install deps:
 
 ```bash
 npm install
@@ -25,6 +22,3 @@ Design choices
 
 APIs and docs
 - Swagger UI is mounted at `/api-docs`.
-
-Notes
-- This repo is scaffolded for the assignment; configure real SMTP and DB before deploying.
